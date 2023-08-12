@@ -1567,7 +1567,8 @@ button {
 
 .button-primary:hover, .button-primary:active {
 	color: #ffffff;
-	background-color: #73cca1;
+	/* background-color: #73cca1; */
+	background-color: var(--hover-accent);
 	border-color: #6046b6;
 }
 
@@ -4273,6 +4274,7 @@ hr + .footer-social-list {
 	.desktop .services-terri:hover .services-terri-icon {
 		color: #151515;
 		background: #ffe745;
+		opacity: .5;
 	}
 }
 
@@ -15277,4 +15279,11 @@ border: 1px solid rgba(50, 42, 42, 0.18);
 
 .swiper-text-right {
 	margin-left:auto;
+}
+
+.jc-center {
+	justify-content: center;
+}
+.accent-text {
+	color: var(--hover-accent);
 }
