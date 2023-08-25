@@ -1,3 +1,6 @@
 # Exclude any PSD/AI source
 *.psd
 *.ai
+images/logo/goatqr2.png
+images/logo/goatqr3.png
+images/textures/rocky-wall.bg2png.png
